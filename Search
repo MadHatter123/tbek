@@ -1,0 +1,13 @@
+import java.util.Iterator;
+import net.billylieurance.azuresearch.AbstractAzureSearchQuery.AZURESEARCH_FORMAT;
+import net.billylieurance.azuresearch.AzureSearchResultSet;
+import net.billylieurance.azuresearch.AzureSearchWebQuery;
+import net.billylieurance.azuresearch.AzureSearchWebResult;
+public class BingSearch {
+	
+	}
+	public static void main(String[] args) {
+		Search SearchService = new Search();
+		SearchService.search("Raja");
+	}
+}
